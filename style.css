@@ -1,0 +1,146 @@
+body{
+    background: black;
+    align-items: center;
+    justify-content: center;
+    display: flex;
+    margin-left: 35%;
+    background: url(blue.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+}   
+.transparent {
+    width: 420px;
+    background: transparent;
+    border: 2px solid rgba(225, 225, 225, .2);
+    color: #fff;
+    border-radius: 10px;
+    padding: 30px 80px;
+    backdrop-filter: blur(5px);
+}
+.transparent h1{
+    font-size: 36px;
+    text-align: center;
+}
+.transparent .box{
+    position: relative;
+    width: 100%;
+    height: 35px;
+    margin: 25px 0;
+}
+.box input{
+    width: 100%;
+    height: 120%;
+    background: transparent;
+    border: none;
+    outline: none;
+    border: 2px solid rgba(225, 225, 255, .2);
+    border-radius: 40px;
+    box-shadow: 0 0 10px rgba(225, 225, 225, .2);
+    font-size: 16px;
+    color: #fff;
+    padding: 20px 45px 20px 20px;
+}
+.box input::placeholder{
+    color: #fff;
+}
+.box i{
+    position: absolute;
+    right: 20px;
+    top: 50px 50px;
+    transform: translayeY(-50%);
+    font-size: 20px;
+}
+.transparent .weeeee{
+    display: flex;
+    justify-content: space-between;
+    font-size: 14.5px;
+    margin: -15px 0 15px;
+}
+.weeeee label input{
+    accent-color: #fff;
+    text-decoration: none;
+}
+.weeeee a{
+    color:#fff;
+    text-decoration: none;
+}
+.weeeee a:hover{
+    text-decoration: underline;
+
+}
+.transparent .btn{
+    width: 100%;
+    height: 40px;
+    background: #fff;
+    border: none;
+    outline: none;
+    border-radius: 40px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, .1);
+    cursor: pointer;
+    color:#333;
+    font-weight: 300;
+}
+.transparent link{
+    font-size: 14.5px;
+    text-align: center;
+    margin: 20px 0 15px;
+}
+.link p a{
+    color:#fff;
+    text-decoration: none;
+    font-weight: 600;
+}
+.link p a:hover{
+    text-decoration: underline;
+}
+header{
+    position: fixed;
+    top:0;
+    left:0;
+    width: 100;
+    display:flex;
+    justify-content: space-between;
+    align-items: center;
+    transition: 0.6s;
+    padding: 40px 100px;
+    z-index: 100000;
+
+}
+header .menu{
+    position: relative;
+    font-weight: 700;
+    color:#fff;
+    text-decoration: none;
+    font-size: 2em;
+    text-transform: uppercase;
+    letter-spacing: 2px;
+    transition: 0.6s;
+}
+header ul{
+    position: relative;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+header ul li{
+    position: relative;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+header ul li a{
+    position: relative;
+    margin: 0 15px;
+    text-decoration: none;
+    color:#fff;
+    letter-spacing: 2px;
+    font-weight: 500px;
+    transition: 0.5s;
+}
+.banner{
+    position: relative;
+    width:200%;
+    height: 100vh;
+    background-size: cover;
+
+}
